@@ -1,0 +1,49 @@
+.item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #cfcfcf;
+	padding: 10px 0;
+}
+
+.itemTitle {
+	font-weight: 400;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.done {
+	color: #cfcfcf;
+	text-decoration: line-through;
+}
+
+.deleteButton {
+	border: none;
+	background-color: transparent;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	cursor: pointer;
+}
+
+.deleteButton::before {
+	position: absolute;
+	content: "";
+	width: 20px;
+	height: 2px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotateZ(45deg);
+	background-color: #000000;
+}
+
+.deleteButton::after {
+	position: absolute;
+	content: "";
+	width: 2px;
+	height: 20px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotateZ(45deg);
+	background-color: #000000;
+}

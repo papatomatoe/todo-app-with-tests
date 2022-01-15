@@ -1,0 +1,22 @@
+.title {
+	font-size: 48px;
+	color: #ffffff;
+	font-weight: 400;
+	text-align: center;
+}
+
+.back {
+	border: none;
+	background-color: transparent;
+	color: #ffffff;
+	display: block;
+	font-size: 24px;
+	text-decoration: underline;
+	margin: 10px auto;
+	cursor: pointer;
+}
+
+.back:hover,
+.back:focus {
+	opacity: 0.7;
+}

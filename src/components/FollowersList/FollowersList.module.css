@@ -1,0 +1,23 @@
+.item {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #cfcfcf;
+	padding: 10px 0;
+}
+
+.avatar {
+	border-radius: 50%;
+}
+
+.user {
+	margin-left: 20px;
+}
+
+.username {
+	font-size: 14px;
+}
+.login {
+	font-size: 12px;
+	margin-top: 10px;
+	color: gray;
+}

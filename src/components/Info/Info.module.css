@@ -1,0 +1,21 @@
+.info {
+	font-size: 14px;
+	height: fit-content;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0;
+}
+
+.followers {
+	text-decoration: none;
+	color: rgb(4, 140, 219);
+	margin-left: auto;
+}
+
+.followers:hover,
+.followers:focus {
+	text-decoration: underline;
+}
+.followers:active {
+	opacity: 0.8;
+}

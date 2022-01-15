@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"outDir": "./build/",
+		"sourceMap": true,
+		"noImplicitAny": true,
+		"module": "es6",
+		"target": "es5",
+		"jsx": "react-jsx",
+		"allowJs": true,
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"allowSyntheticDefaultImports": true,
+		"baseUrl": "./src",
+		"paths": {
+			"components/*": ["./components/*"],
+			"styles/*": ["./styles/*"],
+			"layouts/*": ["./layouts/*"],
+			"pages/*": ["./pages/*"],
+			"hooks/*": ["./hooks/*"],
+			"context/*": ["./context/*"],
+			"types/*": ["./types/*"],
+			"images/*": ["./images/*"],
+			"services/*": ["./services/*"],
+			"mock/*": ["./mock/*"]
+		}
+	},
+	"include": ["src"],
+	"exclude": ["node_modules"]
+}
